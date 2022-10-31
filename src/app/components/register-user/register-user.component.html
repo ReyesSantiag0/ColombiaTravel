@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="vh-100" style="background-image: url(../../../assets/bg02.JPG); background-size: cover;">
+
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100 ">
+        <div class="col-md-offset-3 col-md-6">
+          <div class="form-container">
+            <h3 class="title">Registrate en Colombia Travel</h3>
+            <form class="form-horizontal">
+              <div class="form-group">
+                <label>Nombre Completo</label>
+                <input type="text" class="form-control" placeholder="Nombres">
+              </div>
+              <div class="form-group">
+                <label>Correo electrónico</label>
+                <input type="email" class="form-control" placeholder="Email ">
+              </div>
+              <div class="form-group">
+                <label>Contraseña</label>
+                <input type="password" class="form-control" placeholder="Contraseña">
+              </div>
+              <div class="form-group">
+                <label>Confirmar contraseña</label>
+                <input type="password" class="form-control" placeholder="Confirmar contraseña">
+              </div>
+              <h4 class="sub-title">Información Personal</h4>
+              <div class="form-group">
+                <label>Número de teléfono</label>
+                <input type="text" class="form-control" placeholder="Número de teléfono">
+              </div>
+              <div class="form-group">
+                <label>Ciudad de origen</label>
+                <input type="text" class="form-control" placeholder="Ciudad origen">
+
+              </div>
+              <div class="check-terms">
+                <input type="checkbox" class="checkbox">
+                <span class="check-label">Acepto términos y condiciones</span>
+              </div>
+              <span class="signin-link">¿Ya tienes una cuenta? <a routerLink="/login">Iniciar sesión</a></span>
+              <button class="btn btn-dark btn-block">Crear cuenta</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <app-footer></app-footer>
+</body>
+
+</html>
